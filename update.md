@@ -15,14 +15,12 @@
  >> `配置.conf`(配置.prop) 在刷入前可以用 **[mt文件管理器](https://binmt.lanzoui.com/b01bivkzc)** 修改来自定义模块的一些功能。
 
 
-- v175
-> 去除`omofun`广告。
-- v178
-> 放行百度两个广告域名。
-```
-ecmb.bdimg.com
-ecma.bdimg.com
-```
 - v179
 > 去除`快对`广告。
 > 感谢酷安@Aloazny提供的规则。
+- v182
+> 添加了部分快手广告sdk拦截，不知道是否有副作用。
+```
+w1.gskwai.com
+w2.gskwai.com
+```
